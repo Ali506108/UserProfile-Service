@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: application
-          image: ali23uk/userprofile-service:ae7ddf2398936852c8760ee800374528409bb597
+          image: ali23uk/userprofile-service:95a53bc52e21b39faa215a14ddb168303e5e693a
           ports:
             - containerPort: 9434
           envFrom:
