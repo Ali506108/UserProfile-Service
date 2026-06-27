@@ -35,8 +35,8 @@ spec:
               name: redis-data
   volumeClaimTemplates:
     - metadata:
-          name: redis-data
-    - spec:
+        name: redis-data
+      spec:
         accessModes:
           - ReadWriteOnce
         resources:
