@@ -26,7 +26,7 @@ metadata:
   name: application
   namespace: user-apps
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: application
